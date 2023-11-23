@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="icons/logoa.svg" type="public/image/art">
+    <title>Antartica</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option> All</option>
+                </select>
+                <input placeholder="Search Antartica" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+
+            <!-- <div class="nav-lang border">
+                <div class="img-country"></div> 
+                <p>En</p>
+                <i class="fa-solid fa-caret-down down"></i>
+                    <!-- <select class="lang-select">
+                    <option value="En"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                </select> -->
+            <!-- </div> -->
+
+            <div class="nav-singin border">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                cart
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <p class="border"><img src="" />Today's Deals</p>
+                <p class="border">Customer Service</p>
+                <p class="border">Registry</p>
+                <p class="border">Gift Cards</p>
+                <p class="border">Sell</p>
+            </div>
+            <div class="panel-deals border">
+                Shop deals in Electronics
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <div class="arrow l">
+          <img src="icons/l.png" alt="l">
+        </div>
+        <div class="slide slide-1">
+            <div class="caption">
+                <!-- <h3>New York</h3>
+                <p>we love the Big apple!</p> -->
+            </div>
+        </div>
+        <div class="slide slide-2">
+            <div class="caption">
+                <!-- <h3>Los Angeles</h3>
+                <p>love the Big apple!</p> -->
+            </div>
+        </div>
+        <div class="slide slide-3">
+            <div class="caption">
+                <!-- <h3>Bahraich</h3>
+                <p>we love the Big!</p> -->
+            </div>
+        </div>
+        <div class="arrow r" onclick="next()">
+            <img src="icons/r.png" alt="r">
+        </div>
+    </div>
+      
+    <div class="shop-section">
+        <div class="box1 box">
+           <div class="box-content">
+            <h2>Personal Care</h2>
+            <div class="box-img" style="background-image: url('icons/health_.jpg');"></div>
+                <p>See more</p>
+           </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Fashion for woman</h2>
+                <div class="box-img" style="background-image: url('icons/dress.jpg');"></div>
+                    <p>See more</p>
+               </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Accessories for women</h2>
+                <div class="box-img" style="background-image: url('icons/hair\ clips.jpg');"></div>
+                    <p>See more</p>
+               </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Baby diapers</h2>
+                <div class="box-img" style="background-image: url('icons/dipers.jpg');"></div>
+                    <p>See more</p>
+               </div>
+        </div>
+        <div class="box1 box">
+            <div class="box-content">
+             <h2>Apple Phone</h2>
+             <div class="box-img" style="background-image: url('icons/applephone.jpg');"></div>
+                 <p>See more</p>
+            </div>
+         </div>
+         <div class="box2 box">
+             <div class="box-content">
+                 <h2>Electronics</h2>
+                 <div class="box-img" style="background-image: url('icons/wasingmachine.jpg');"></div>
+                     <p>See more</p>
+                </div>
+         </div>
+         <div class="box3 box">
+             <div class="box-content">
+                 <h2>Shoes for men</h2>
+                 <div class="box-img" style="background-image: url('icons/shose.jpg');"></div>
+                     <p>See more</p>
+                </div>
+         </div>
+         <div class="box4 box">
+             <div class="box-content">
+                 <h2>Health</h2>
+                 <div class="box-img" style="background-image: url('icons/chalcium.jpg');"></div>
+                     <p>See more</p>
+                </div>
+         </div>
+
+    </div>
+
+    <footer>
+      <div class="foot-panel1">
+        Back to Top
+      </div>
+      
+      <div class="foot-panel2">
+        <ul>
+            <p>Get to Know Us</p>
+           <a> About Us </a>
+           <a> Careers </a>
+           <a> Press Releases </a>
+           <a> Antartica Science </a>
+        </ul>
+        <ul>
+            <p>Connect with Us</p>
+           <a> Facebook </a>
+           <a> Twitter </a>
+           <a> Instagram </a>
+        </ul>
+        <ul>
+            <p>Make Money with Us</p>
+           <a> Sell on Antartica </a>
+           <a> Sell under Antartica Accelerator </a>
+           <a> Protect and Build Your Brand </a>
+           <a> Become an Affiliate </a>
+           <a> Antartica Global Sellinge </a>
+           <a>Fulfilment by Antartica </a>
+           <a>Advertise Your Products </a>
+           <a>Antartica Pay on Merchants </a>
+        </ul>
+        <ul>
+            <p>Let Us Help You</p>
+           <a> COVID-19 and Antartica</a>
+           <a> Your Account</a>
+           <a> Returns Centre </a>
+           <a>100% Purchase Protection </a>
+           <a>Antartica App Download </a>
+           <a>Help </a>
+        </ul>
+      </div>
+
+      <div class="foot-panel3">
+        <div class="logo1"></div>
+      </div>
+
+      <div class="foot-panel4">
+        <div class="pages">
+            <a>Conditions of Use</a>
+            <a>Privacy Notice</a>
+            <a>Your Ads Privacy Choices</a>
+        </div>
+        <div class="copyright">
+            © 1996-2023, Antartica.com, Inc. or its affiliate
+        </div>
+      </div>
+
+    </footer>
+    <script
+     src="script.js">
+    </script>
+</body>
+</html>
